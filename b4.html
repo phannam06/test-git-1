@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      table,
+      th,
+      td {
+        background: 10px, solid, black;
+        border-collapse: collapse;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <label for="">Tiến độ hoàn thành môn toán </label><br />
+    <progress for="" value="80" max="100">GOOD</progress><br />
+    <label for="">Tiến độ hoàn thành môn lý</label><br />
+    <progress for="" value="50" max="100">GOOD</progress><br />
+    <label for="">Tiến độ hoàn thành môn hoá</label><br />
+    <progress for="" value="100" max="100"></progress><br />
+    <label for="">Tổng thể</label>
+    <progress></progress>
+    <p>Tạo bảng</p>
+    <table border="1">
+      <tr>
+        <th>STT</th>
+        <th>Họ và tên</th>
+        <th>Địa chỉ</th>
+      </tr>
+      <tr>
+        <td colspan="3">Ghép 3 ô của hàng</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Trần Thị B</td>
+        <td>Hải Dương</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Nguyễn Văn C</td>
+        <td>Thái Bình</td>
+      </tr>
+    </table>
+    <p>Tabel mới</p>
+    <table border="1">
+      <tr>
+        <th>ID</th>
+        <th>Họ và Tên</th>
+        <th>Điểm</th>
+        <th>Xếp loại</th>
+      </tr>
+      <tr>
+        <td colspan="4">Khoá A</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Trần Tiến Tài</td>
+        <td>7</td>
+        <td rowspan="2">Khá</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Phạm Mạnh Khoa</td>
+        <td>8</td>
+      </tr>
+      <tr>
+        <td colspan="4">Khoá B</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Trần Văn Hưng</td>
+        <td>5</td>
+        <td>Trung Bình</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Đỗ Đức Thành</td>
+        <td>10</td>
+        <td>Giỏi</td>
+      </tr>
+      <tr>
+        <td colspan="2"><b>TỔNG CỘNG</b></td>
+        <td><b>7.5</b></td>
+        <td><b>Khá</b></td>
+      </tr>
+    </table>
+  </body>
+  <p>Hình ảnh minh hoạ</p>
+  <img
+    src="https://www.topwebviet.com/images/website/1/images/html/minh-hoa-bang-html.png"
+    alt="Lỗi Ảnh"
+  />
+  <p>Bảng mới</p>
+  <table border="1">
+    <thead>
+      <tr style="color: green">
+        <th>Month</th>
+        <th>Savings</th>
+      </tr>
+    </thead>
+    <tfoot style="color: red">
+      <tr>
+        <td>Sum</td>
+        <td>$180</td>
+      </tr>
+    </tfoot>
+    <tbody style="color: blue">
+      <tr>
+        <td>January</td>
+        <td>$100</td>
+      </tr>
+      <tr>
+        <td>February</td>
+        <td>$80</td>
+      </tr>
+    </tbody>
+  </table>
+  <p>Form</p>
+  <form action="">
+    <label for="">Username</label>
+    <input type="text" placeholder="Username" />
+    <br />
+    <label for="">Password</label>
+    <input type="password" placeholder="Password" />
+  </form>
+  <label for="">Màu sắc ưa thích của bạn là gì</label>
+  <input type="color" name="color" />
+  <br />
+  <label for="">Có</label>
+  <input type="radio" />
+  <label for="">Không</label>
+  <input type="radio" />
+  <br />
+  <label for="">Tiến độ hoàn thánh</label>
+  <input type="range" name="job" value="7" max="10" /><br />
+  <label for="">Ngày sinh nhật</label>
+  <input type="date" />
+</html>
